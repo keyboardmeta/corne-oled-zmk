@@ -1,90 +1,315 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, lower, SPACE, RET,
-    raise, RALT]
-  lower:
+  VLayer:
   - TAB
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - {type: held}
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - MUTE
+  - LCTRL
+  - A
+  - {t: R, h: RALT}
+  - {t: S, h: LEFT CONTROL}
+  - {t: T, h: LEFT WIN}
+  - G
+  - M
+  - {t: N, h: RIGHT GUI}
+  - {t: E, h: RIGHT CONTROL}
+  - {t: I, h: RALT}
+  - O
+  - VOL UP
+  - ESC
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - {t: ., h: '!'}
+  - /
+  - VOL DN
+  - ESC
   - SPACE
-  - RET
-  - {t: ▽, type: trans}
-  - RALT
-  raise:
-  - TAB
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: NumLayer, h: toggle}
+  - {t: SymLayer, h: toggle}
+  - {t: Function, h: toggle}
+  SymLayer:
+  - ''
   - '!'
   - '@'
   - '#'
   - $
   - '%'
+  - '-'
+  - +
+  - '['
+  - ']'
+  - {t: Function, h: toggle}
+  - ''
+  - ''
+  - TAB
+  - '='
+  - '"'
+  - ''''
+  - '?'
+  - ':'
+  - ;
+  - '{'
+  - '}'
+  - BACKSPACE
+  - ''
+  - ''
+  - ESC
   - ^
   - '&'
   - '*'
+  - '`'
+  - \
+  - /
   - (
   - )
-  - BSPC
-  - LCTRL
+  - ENTER
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: VLayer, h: toggle}
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: RCTRL, h: sticky}
+  - {t: NumLayer, h: toggle}
+  - {t: Function, h: toggle}
+  NumLayer:
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - .
   - '-'
+  - PG UP
+  - UP ARROW
+  - PG DN
+  - ''
+  - ''
+  - ''
+  - TAB
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - +
+  - LEFT
+  - DOWN
+  - RIGHT
+  - BACKSPACE
+  - ''
+  - ''
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - ','
   - '='
-  - '['
-  - ']'
-  - \
-  - '`'
+  - HOME
+  - CAPS
+  - END
+  - RET
+  - ''
+  - {t: ▽, type: trans}
+  - {t: VLayer, h: toggle}
+  - {t: LEFT SHIFT, h: Mouse}
+  - {t: RIGHT GUI, h: sticky}
+  - {t: SymLayer, h: toggle}
+  - {t: Function, h: toggle}
+  Mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - LCTRL
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - LGUI
   - {t: ▽, type: trans}
-  - SPACE
-  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: VLayer, h: toggle}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Media:
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
   - RALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - ''
+  - PREV
+  - VOL DN
+  - VOL UP
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: VLayer, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NavLayer:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - V
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: VLayer, h: toggle}
+  - {t: RSHFT, h: sticky}
+  - {t: RIGHT WIN, h: sticky}
+  - {t: RIGHT ALT, h: sticky}
+  - ''
+  Function:
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - RSHFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: VLayer, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [32, 33]
+  k: ;
+  l: [VLayer]
+- p: [31, 32]
+  k: K
+  l: [VLayer]
+- p: [27, 28]
+  k: V
+  l: [VLayer]
+- p: [37, 40]
+  k: {t: NavLayer, h: toggle}
