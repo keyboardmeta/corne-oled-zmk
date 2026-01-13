@@ -91,10 +91,10 @@
         default_layer {
             display-name = "VLayer";
             bindings = <
-&kp TAB    &kp Q  &kp W       &kp F               &kp P           &kp B             &kp J  &kp L            &kp U                &kp Y                &kp SEMICOLON  &kp C_MUTE
-&kp LCTRL  &kp A  &hm RALT R  &hm LEFT_CONTROL S  &hm LEFT_WIN T  &kp G             &kp M  &hm RIGHT_GUI N  &hm RIGHT_CONTROL E  &hm RALT I           &kp O          &kp C_VOL_UP
-&kp ESC    &kp Z  &kp X       &kp C               &kp D           &kp V             &kp K  &kp H            &kp COMMA            &hm EXCLAMATION DOT  &kp FSLH       &kp C_VOL_DN
-                              &kp ESC             &kp SPACE       &sk LEFT_SHIFT    &to 2  &to 1            &to 6
+&kp TAB    &kp Q  &kp W       &kp F               &kp P           &kp B             &kp J         &kp L            &kp U                &kp Y                &kp SEMICOLON  &kp C_MUTE
+&kp LCTRL  &kp A  &hm RALT R  &hm LEFT_CONTROL S  &hm LEFT_WIN T  &kp G             &kp M         &hm RIGHT_GUI N  &hm RIGHT_CONTROL E  &hm RALT I           &kp O          &kp C_VOL_UP
+&kp ESC    &kp Z  &kp X       &kp C               &kp D           &kp V             &kp K         &kp H            &kp COMMA            &hm EXCLAMATION DOT  &kp FSLH       &kp C_VOL_DN
+                              &kp ESC             &kp SPACE       &sk LEFT_SHIFT    &sk LEFT_GUI  &to 1            &to 6
             >;
         };
 
