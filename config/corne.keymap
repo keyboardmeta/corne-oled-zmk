@@ -76,6 +76,11 @@
             bindings = <&to 5>;
             key-positions = <37 40>;
         };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <16 19>;
+        };
     };
 
     keymap {
