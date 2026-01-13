@@ -269,7 +269,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&studio_unlock'
   - '&bootloader'
   - ''
   - F11
@@ -313,3 +313,5 @@ combos:
   l: [VLayer]
 - p: [37, 40]
   k: {t: NavLayer, h: toggle}
+- p: [16, 19]
+  k: Q
