@@ -82,7 +82,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
-  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT SHIFT, h: NavLayer}
   - {t: RCTRL, h: sticky}
   - {t: NumLayer, h: toggle}
   - {t: Function, h: toggle}
@@ -254,7 +254,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
-  - {t: RSHFT, h: sticky}
+  - {t: RSHFT, h: sticky, type: held}
   - {t: RIGHT WIN, h: sticky}
   - {t: RIGHT ALT, h: sticky}
   - ''
