@@ -38,10 +38,10 @@ layers:
   - /
   - ''
   - ESC
-  - SPACE
+  - {t: SPACE, h: SymLayer}
   - {t: LEFT SHIFT, h: NumLayer}
   - {t: RIGHT GUI, h: NumLayer}
-  - {t: SymLayer, h: toggle}
+  - {t: BACKSPACE, h: SymLayer}
   - {t: Function, h: toggle}
   SymLayer:
   - ''
@@ -81,7 +81,7 @@ layers:
   - ENTER
   - ''
   - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle}
+  - {t: VLayer, h: toggle, type: held}
   - {t: LEFT SHIFT, h: NavLayer}
   - {t: RCTRL, h: sticky}
   - {t: NumLayer, h: toggle}
@@ -124,11 +124,11 @@ layers:
   - RET
   - ''
   - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle}
-  - {t: LEFT SHIFT, h: Mouse, type: held}
-  - {t: RIGHT GUI, h: sticky}
-  - {t: SymLayer, h: toggle}
-  - {t: Function, h: toggle}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle}
+  - {t: VLayer, h: toggle, type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: RIGHT ALT, h: sticky}
