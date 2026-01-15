@@ -42,7 +42,7 @@
 
         /* Thumb layer keys */
 
-        lt: layer_tap {
+        ltsk: layer_tap_sk {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -91,30 +91,30 @@
         default_layer {
             display-name = "VLayer";
             bindings = <
-&kp TAB    &kp Q  &kp W       &kp F               &kp P           &kp B             &kp J         &kp L            &kp U                &kp Y                &kp SEMICOLON  &kp C_MUTE
-&kp LCTRL  &kp A  &hm RALT R  &hm LEFT_CONTROL S  &hm LEFT_WIN T  &kp G             &kp M         &hm RIGHT_GUI N  &hm RIGHT_CONTROL E  &hm RALT I           &kp O          &kp C_VOL_UP
-&kp ESC    &kp Z  &kp X       &kp C               &kp D           &kp V             &kp K         &kp H            &kp COMMA            &hm EXCLAMATION DOT  &kp FSLH       &kp C_VOL_DN
-                              &kp ESC             &kp SPACE       &sk LEFT_SHIFT    &sk LEFT_GUI  &to 1            &to 6
+&none  &kp Q  &kp W       &kp F               &kp P           &kp B             &kp J              &kp L            &kp U                &kp Y                &kp SEMICOLON  &none
+&none  &kp A  &hm RALT R  &hm LEFT_CONTROL S  &hm LEFT_WIN T  &kp G             &kp M              &hm RIGHT_GUI N  &hm RIGHT_CONTROL E  &hm RALT I           &kp O          &none
+&none  &kp Z  &kp X       &kp C               &kp D           &kp V             &kp K              &kp H            &kp COMMA            &hm EXCLAMATION DOT  &kp FSLH       &none
+                          &kp ESC             &kp SPACE       &sk LEFT_SHIFT    &ltsk 2 RIGHT_GUI  &to 1            &to 6
             >;
         };
 
         symbollayer {
             display-name = "SymLayer";
             bindings = <
-&none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR    &kp PRCNT           &kp MINUS  &kp PLUS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 6          &none
-&none  &kp TAB          &kp EQUAL    &kp DOUBLE_QUOTES  &kp SQT       &kp QUESTION        &kp COLON  &kp SEMICOLON  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSPACE  &none
-&none  &kp ESC          &kp CARET    &kp AMPERSAND      &kp ASTERISK  &kp GRAVE           &kp BSLH   &kp SLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER      &none
-                                     &trans             &to 0         &lt 5 LEFT_SHIFT    &sk RCTRL  &to 2          &to 6
+&none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR    &kp PRCNT             &kp MINUS  &kp PLUS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 6          &none
+&none  &kp TAB          &kp EQUAL    &kp DOUBLE_QUOTES  &kp SQT       &kp QUESTION          &kp COLON  &kp SEMICOLON  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSPACE  &none
+&none  &kp ESC          &kp CARET    &kp AMPERSAND      &kp ASTERISK  &kp GRAVE             &kp BSLH   &kp SLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER      &none
+                                     &trans             &to 0         &ltsk 5 LEFT_SHIFT    &sk RCTRL  &to 2          &to 6
             >;
         };
 
         num_layer {
             display-name = "NumLayer";
             bindings = <
-&none  &none    &kp N7        &kp N8        &kp N9        &kp DOT             &kp MINUS      &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &none          &none
-&none  &kp TAB  &kp N4        &kp N5        &kp N6        &kp N0              &kp PLUS       &kp LEFT   &kp DOWN      &kp RIGHT  &kp BACKSPACE  &none
-&none  &kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA           &kp EQUAL      &kp HOME   &kp CAPS      &kp END    &kp RET        &none
-                              &trans        &to 0         &lt 3 LEFT_SHIFT    &sk RIGHT_GUI  &to 1      &to 6
+&none  &none    &kp N7        &kp N8        &kp N9        &kp DOT               &kp MINUS      &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &none          &none
+&none  &kp TAB  &kp N4        &kp N5        &kp N6        &kp N0                &kp PLUS       &kp LEFT   &kp DOWN      &kp RIGHT  &kp BACKSPACE  &none
+&none  &kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA             &kp EQUAL      &kp HOME   &kp CAPS      &kp END    &kp RET        &none
+                              &trans        &to 0         &ltsk 3 LEFT_SHIFT    &sk RIGHT_GUI  &to 1      &to 6
             >;
         };
 
@@ -140,10 +140,10 @@
 
         NavLayer {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans       &trans         &kp V          &kp UP    &trans     &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0       &trans         &kp LEFT       &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans       &trans         &trans         &trans    &trans     &trans  &trans
-                        &trans  &to 0   &sk RSHFT    &sk RIGHT_WIN  &sk RIGHT_ALT  &none
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans  &kp V          &kp UP    &trans     &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0    &trans  &kp LEFT       &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &trans         &trans    &trans     &trans  &trans
+                        &trans  &to 0   &trans    &trans  &sk RIGHT_ALT  &none
             >;
         };
 
