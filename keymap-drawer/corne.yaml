@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   VLayer:
-  - TAB
+  - ''
   - Q
   - W
   - F
@@ -12,8 +12,8 @@ layers:
   - U
   - Y
   - ;
-  - MUTE
-  - LCTRL
+  - ''
+  - ''
   - A
   - {t: R, h: RALT}
   - {t: S, h: LEFT CONTROL}
@@ -24,8 +24,8 @@ layers:
   - {t: E, h: RIGHT CONTROL}
   - {t: I, h: RALT}
   - O
-  - VOL UP
-  - ESC
+  - ''
+  - ''
   - Z
   - X
   - C
@@ -36,11 +36,11 @@ layers:
   - ','
   - {t: ., h: '!'}
   - /
-  - VOL DN
+  - ''
   - ESC
   - SPACE
   - {t: LEFT SHIFT, h: sticky}
-  - {t: LEFT GUI, h: sticky}
+  - {t: RIGHT GUI, h: NumLayer}
   - {t: SymLayer, h: toggle}
   - {t: Function, h: toggle}
   SymLayer:
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
   - {t: LEFT SHIFT, h: Mouse}
-  - {t: RIGHT GUI, h: sticky}
+  - {t: RIGHT GUI, h: sticky, type: held}
   - {t: SymLayer, h: toggle}
   - {t: Function, h: toggle}
   Mouse:
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Media:
@@ -254,8 +254,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
-  - {t: RSHFT, h: sticky, type: held}
-  - {t: RIGHT WIN, h: sticky}
+  - {type: held}
+  - {t: ▽, type: trans}
   - {t: RIGHT ALT, h: sticky}
   - ''
   Function:
