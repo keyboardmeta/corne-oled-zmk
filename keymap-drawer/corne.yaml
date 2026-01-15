@@ -39,7 +39,7 @@ layers:
   - ''
   - ESC
   - SPACE
-  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT SHIFT, h: NumLayer}
   - {t: RIGHT GUI, h: NumLayer}
   - {t: SymLayer, h: toggle}
   - {t: Function, h: toggle}
@@ -125,8 +125,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
-  - {t: LEFT SHIFT, h: Mouse}
-  - {t: RIGHT GUI, h: sticky, type: held}
+  - {t: LEFT SHIFT, h: Mouse, type: held}
+  - {t: RIGHT GUI, h: sticky}
   - {t: SymLayer, h: toggle}
   - {t: Function, h: toggle}
   Mouse:
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: VLayer, h: toggle}
   - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Media:
