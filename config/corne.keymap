@@ -137,6 +137,15 @@
                          &trans  &trans  &trans     &trans  &trans  &trans
             >;
         };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_NEXT       &trans        &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp K_MUTE  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans        &trans      &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans           &trans
+            >;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
