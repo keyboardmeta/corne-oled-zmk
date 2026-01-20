@@ -14,16 +14,16 @@ layers:
   - ;
   - ''
   - ''
-  - A
-  - {t: R, h: RALT}
-  - {t: S, h: LEFT CONTROL}
+  - {t: A, h: LEFT ALT}
+  - {t: R, h: LCTRL}
+  - {t: S, h: LEFT SHIFT}
   - {t: T, h: LEFT WIN}
   - G
   - M
   - {t: N, h: RIGHT GUI}
-  - {t: E, h: RIGHT CONTROL}
-  - {t: I, h: RALT}
-  - O
+  - {t: E, h: RIGHT SHIFT}
+  - {t: I, h: RIGHT CONTROL}
+  - RIGHT ALT
   - ''
   - ''
   - Z
@@ -39,7 +39,7 @@ layers:
   - ''
   - ESC
   - {t: SPACE, h: '1'}
-  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT SHIFT, h: '4'}
   - {t: ENTER, h: '3'}
   - {t: BACKSPACE, h: '2'}
   - TAB
@@ -57,9 +57,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ESC
-  - RALT
+  - LEFT ALT
   - LCTRL
+  - LEFT SHIFT
   - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -107,12 +107,12 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - RGUI
-  - LCTRL
-  - LALT
+  - RIGHT SHIFT
+  - RIGHT CONTROL
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
   - '1'
   - '2'
   - '3'
@@ -123,9 +123,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - +
+  - {t: ▽, type: trans}
   - '0'
-  - {t: '-', h: LEFT SHIFT}
+  - '-'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -150,9 +150,9 @@ layers:
   - '"'
   - {t: ▽, type: trans}
   - RGUI
-  - RCTRL
-  - LALT
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  - LCTRL
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,6 +172,92 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LALT
+  - LCTRL
+  - LEFT SHIFT
+  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '5':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - F4
+  - F5
+  - F6
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [32, 33]
   k: ;
@@ -183,6 +269,6 @@ combos:
   k: V
   l: [VLayer]
 - p: [37, 40]
-  k: {t: VLayer, h: toggle}
+  k: {t: '5', h: toggle}
 - p: [16, 19]
   k: Q
