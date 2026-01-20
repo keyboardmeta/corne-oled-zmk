@@ -38,11 +38,11 @@ layers:
   - /
   - ''
   - ESC
-  - {t: SPACE, h: VLayer}
-  - {t: LEFT SHIFT, h: VLayer}
-  - {t: RIGHT GUI, h: VLayer}
-  - {t: BACKSPACE, h: VLayer}
-  - {t: VLayer, h: toggle}
+  - {t: SPACE, h: '1'}
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: ENTER, h: '3'}
+  - {t: BACKSPACE, h: '2'}
+  - TAB
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,7 +127,7 @@ layers:
   - '0'
   - '-'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - ;
   - ':'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
