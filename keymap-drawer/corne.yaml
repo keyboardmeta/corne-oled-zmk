@@ -38,121 +38,46 @@ layers:
   - /
   - ''
   - ESC
-  - {t: SPACE, h: SymLayer}
-  - {t: LEFT SHIFT, h: NumLayer}
-  - {t: RIGHT GUI, h: NumLayer}
-  - {t: BACKSPACE, h: SymLayer}
-  - {t: Function, h: toggle}
-  SymLayer:
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - '-'
-  - +
-  - '['
-  - ']'
-  - {t: Function, h: toggle}
-  - ''
-  - ''
-  - TAB
-  - '='
-  - '"'
-  - ''''
-  - '?'
-  - ':'
-  - ;
-  - '{'
-  - '}'
-  - BACKSPACE
-  - ''
-  - ''
-  - ESC
-  - ^
-  - '&'
-  - '*'
-  - '`'
-  - \
-  - /
-  - (
-  - )
-  - ENTER
-  - ''
+  - {t: SPACE, h: VLayer}
+  - {t: LEFT SHIFT, h: VLayer}
+  - {t: RIGHT GUI, h: VLayer}
+  - {t: BACKSPACE, h: VLayer}
+  - {t: VLayer, h: toggle}
+  '1':
   - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle, type: held}
-  - {t: LEFT SHIFT, h: NavLayer}
-  - {t: RCTRL, h: sticky}
-  - {t: NumLayer, h: toggle}
-  - {t: Function, h: toggle}
-  NumLayer:
-  - ''
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - .
-  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - PG UP
-  - UP ARROW
+  - UP
   - PG DN
-  - ''
-  - ''
-  - ''
-  - TAB
-  - '4'
-  - '5'
-  - '6'
-  - '0'
-  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RALT
+  - LCTRL
+  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
-  - BACKSPACE
-  - ''
-  - ''
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - ','
-  - '='
+  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
   - CAPS
   - END
-  - RET
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -161,83 +86,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Media:
-  - '&bootloader'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LGUI
-  - RALT
-  - LCTRL
-  - LSHFT
-  - ''
-  - ''
-  - PREV
-  - VOL DN
-  - VOL UP
-  - NEXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NavLayer:
+  '2':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - V
-  - UP
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
   - '4'
   - '5'
   - '6'
-  - '0'
+  - '='
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - RGUI
+  - LCTRL
+  - LALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -245,6 +116,20 @@ layers:
   - '1'
   - '2'
   - '3'
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - '0'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -253,51 +138,37 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle, type: held}
-  - {type: held}
   - {t: ▽, type: trans}
-  - {t: RIGHT ALT, h: sticky}
-  - ''
-  Function:
-  - ''
-  - F12
-  - F7
-  - F8
-  - F9
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&studio_unlock'
-  - '&bootloader'
-  - ''
-  - F11
-  - F4
-  - F5
-  - F6
-  - ''
-  - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
-  - ''
-  - ''
-  - F10
-  - F1
-  - F2
-  - F3
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - {t: VLayer, h: toggle}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '@'
+  - '#'
+  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - )
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -312,6 +183,6 @@ combos:
   k: V
   l: [VLayer]
 - p: [37, 40]
-  k: {t: NavLayer, h: toggle}
+  k: {t: VLayer, h: toggle}
 - p: [16, 19]
   k: Q
