@@ -117,10 +117,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans   &trans       &trans    &trans                 &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp ESC  &trans       &trans    &trans                 &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &kp AT_SIGN  &kp HASH  &kp DOLLAR             &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans    &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &trans  &trans  &trans
+&trans  &trans   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE           &kp GRAVE               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ESC  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SQT            &kp TILDE               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp NON_US_BACKSLASH    &trans  &trans  &trans  &trans  &trans  &trans
+                                       &trans                 &kp SEMICOLON      &kp COLON               &trans  &trans  &trans
             >;
         };
     };
