@@ -37,7 +37,7 @@ layers:
   - {t: ., h: '!'}
   - /
   - ''
-  - ESC
+  - {t: ESC, h: '6'}
   - {t: SPACE, h: '1'}
   - {t: LEFT SHIFT, h: '4'}
   - {t: ENTER, h: '3'}
@@ -295,7 +295,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
