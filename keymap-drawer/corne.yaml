@@ -39,7 +39,7 @@ layers:
   - ''
   - {t: ESC, h: Media}
   - {t: SPACE, h: Nav}
-  - {t: LEFT SHIFT, h: Mouse}
+  - {t: TAB, h: Mouse}
   - {t: ENTER, h: Sym}
   - {t: BACKSPACE, h: Num}
   - {t: TAB, h: Fun}
