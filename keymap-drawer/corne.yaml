@@ -313,3 +313,9 @@ combos:
   l: [VLayer]
 - p: [16, 19]
   k: Q
+- p: [19, 20, 21]
+  k: Gui+ENTER
+  l: [VLayer]
+- p: [14, 15, 16]
+  k: ESC
+  l: [VLayer]
