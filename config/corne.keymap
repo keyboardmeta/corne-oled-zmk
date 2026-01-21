@@ -76,6 +76,18 @@
             bindings = <&kp Q>;
             key-positions = <16 19>;
         };
+
+        rst {
+            bindings = <&kp LG(ENTER)>;
+            key-positions = <19 20 21>;
+            layers = <0>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <14 15 16>;
+            layers = <0>;
+        };
     };
 
     keymap {
