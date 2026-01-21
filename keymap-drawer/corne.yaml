@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ESC
+  - {t: LEFT SHIFT, h: sticky}
   - '4'
   - '5'
   - '6'
