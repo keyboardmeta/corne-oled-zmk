@@ -100,6 +100,8 @@
 &trans  &trans        &trans     &trans          &trans    &trans    &trans  &kp HOME   &kp CAPS  &kp END    &trans    &trans
                                  &trans          &trans    &trans    &trans  &trans     &trans
             >;
+
+            label = "Nav";
         };
 
         layer_2 {
@@ -109,6 +111,8 @@
 &trans  &kp PLUS  &kp N1  &kp N2  &kp N3  &kp SLASH       &trans  &trans    &trans           &trans             &trans         &trans
                           &trans  &kp N0  &kp MINUS       &trans  &trans    &trans
             >;
+
+            label = "Num";
         };
 
         layer_3 {
@@ -118,6 +122,8 @@
 &trans  &trans   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp NON_US_BACKSLASH    &trans  &trans    &trans           &trans     &trans         &trans
                                        &trans                 &kp SEMICOLON  &kp COLON               &trans  &trans    &trans
             >;
+
+            label = "Sym";
         };
 
         layer_4 {
@@ -127,6 +133,8 @@
 &trans  &trans    &trans     &trans          &trans    &trans    &trans  &trans          &trans          &trans           &trans  &trans
                              &trans          &trans    &trans    &trans  &trans          &trans
             >;
+
+            label = "Mouse";
         };
 
         layer_5 {
@@ -136,6 +144,8 @@
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans     &trans  &trans          &trans  &trans  &trans  &trans
                          &trans  &trans  &trans     &trans  &trans          &trans
             >;
+
+            label = "Fun";
         };
 
         layer_6 {
@@ -145,6 +155,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans        &trans      &trans  &trans
                         &trans  &trans  &trans    &trans  &trans           &trans
             >;
+
+            label = "Media";
         };
     };
 
