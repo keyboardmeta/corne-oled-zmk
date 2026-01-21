@@ -37,13 +37,13 @@ layers:
   - {t: ., h: '!'}
   - /
   - ''
-  - {t: ESC, h: '6'}
-  - {t: SPACE, h: '1'}
-  - {t: LEFT SHIFT, h: '4'}
-  - {t: ENTER, h: '3'}
-  - {t: BACKSPACE, h: '2'}
-  - {t: TAB, h: '5'}
-  '1':
+  - {t: ESC, h: Media}
+  - {t: SPACE, h: Nav}
+  - {t: LEFT SHIFT, h: Mouse}
+  - {t: ENTER, h: Sym}
+  - {t: BACKSPACE, h: Num}
+  - {t: TAB, h: Fun}
+  Nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '2':
+  Num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  '3':
+  Sym:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (
@@ -172,7 +172,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '5':
+  Fun:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  '6':
+  Media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
