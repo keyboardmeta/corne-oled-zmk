@@ -101,7 +101,7 @@
 &none  &kp Q           &kp W        &kp F             &kp P           &kp B        &kp J        &kp L            &kp U              &kp Y                &kp SEMICOLON    &none
 &none  &hm LEFT_ALT A  &hm LCTRL R  &hm LEFT_SHIFT S  &hm LEFT_WIN T  &kp G        &kp M        &hm RIGHT_GUI N  &hm RIGHT_SHIFT E  &hm RIGHT_CONTROL I  &hm RIGHT_ALT O  &none
 &none  &kp Z           &kp X        &kp C             &kp D           &kp V        &kp K        &kp H            &kp COMMA          &hm EXCLAMATION DOT  &kp FSLH         &none
-                                    &lt 6 ESC         &lt 1 SPACE     &lt 4 TAB    &lt 3 ENTER  &lt 2 BACKSPACE  &lt 5 TAB
+                                    &lt 6 ESC         &lt 1 SPACE     &lt 4 TAB    &lt 3 ENTER  &lt 2 BACKSPACE  &lt 5 DEL
             >;
         };
 
