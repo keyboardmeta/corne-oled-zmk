@@ -42,7 +42,7 @@ layers:
   - {t: TAB, h: Mouse}
   - {t: ENTER, h: Sym}
   - {t: BACKSPACE, h: Num}
-  - {t: TAB, h: Fun}
+  - {t: DEL, h: Fun}
   Nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
