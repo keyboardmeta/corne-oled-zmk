@@ -85,8 +85,13 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <14 15 16>;
+            key-positions = <4 3>;
             layers = <0>;
+        };
+
+        delete {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <7 8>;
         };
     };
 
