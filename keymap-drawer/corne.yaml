@@ -316,6 +316,8 @@ combos:
 - p: [19, 20, 21]
   k: Gui+ENTER
   l: [VLayer]
-- p: [14, 15, 16]
+- p: [4, 3]
   k: ESC
   l: [VLayer]
+- p: [7, 8]
+  k: BACKSPACE
